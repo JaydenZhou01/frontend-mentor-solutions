@@ -39,14 +39,17 @@ main {
   font-size: 0.9375rem;
   font-weight: 400;
   padding: 0 1rem;
+  line-height: 140%;
+  margin-top: 1rem;
 }
 
 .card h1 {
   color: hsl(218, 44%, 22%);
   font-size: 1.25rem;
-  margin: 0.5rem 0;
+  margin-top: 1.5rem;
   font-weight: 700;
   padding: 0 1rem;
+  line-height: 120%;
 }
 
 .attribution {
