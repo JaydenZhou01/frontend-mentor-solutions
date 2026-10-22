@@ -21,39 +21,39 @@ main {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  padding: 16px;
-  border-radius: 16px;
-  filter: drop-shadow(5px 10px 5px hsl(216, 15%, 48%, 0.1));
+  padding: 1rem;
+  border-radius: 1rem;
+  filter: drop-shadow(0.3125rem 0.625rem 0.3125rem hsl(216, 15%, 48%, 0.1));
   text-align: center;
-  width: 320px;
+  width: 20rem;
 }
 
 .card img {
-  border-radius: 16px;
+  border-radius: 1rem;
   width: 100%;
   height: auto;
 }
 
 .card p {
   color: hsl(216, 15%, 48%, 0.8);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .card h1 {
   color: hsl(218, 44%, 22%);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0.5rem 0;
   font-weight: 700;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
