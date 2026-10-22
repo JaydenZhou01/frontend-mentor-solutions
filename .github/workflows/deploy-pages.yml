@@ -1,4 +1,4 @@
-name: Deploy QR code component to GitHub Pages
+name: Deploy challenge solutions to GitHub Pages
 
 on:
   push:
@@ -32,6 +32,8 @@ jobs:
         run: |
           mkdir -p _site/qr-code-component
           cp -R qr-code-component-main/. _site/qr-code-component/
+          mkdir -p _site/blog-preview-card
+          cp -R blog-preview-card-main/. _site/blog-preview-card/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
