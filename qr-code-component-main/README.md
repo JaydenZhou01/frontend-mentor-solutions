@@ -2,7 +2,7 @@
 
 ## Live site
 
-[View the QR code component on GitHub Pages](https://jaydenzhou01.github.io/frontend-mentor-solutions/)
+[View the QR code component on GitHub Pages](https://jaydenzhou01.github.io/frontend-mentor-solutions/qr-code-component/)
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 

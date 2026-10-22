@@ -28,10 +28,15 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Build site artifact
+        run: |
+          mkdir -p _site/qr-code-component
+          cp -R qr-code-component-main/. _site/qr-code-component/
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: qr-code-component-main
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
