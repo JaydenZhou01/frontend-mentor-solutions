@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1.5rem;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  text-align: center;
+  max-width: 24rem;
+  width: 100%;
+}
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.username {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.description {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
+.social-link:focus-visible {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .username {
+    font-size: 1.25rem;
+  }
+
+  .location {
+    font-size: 0.75rem;
+  }
+
+  .description {
+    font-size: 0.75rem;
+  }
+
+  .social-link {
+    font-size: 0.75rem;
+  }
+}
