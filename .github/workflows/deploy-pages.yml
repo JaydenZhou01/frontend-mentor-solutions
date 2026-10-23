@@ -34,6 +34,8 @@ jobs:
           cp -R qr-code-component-main/. _site/qr-code-component/
           mkdir -p _site/blog-preview-card
           cp -R blog-preview-card-main/. _site/blog-preview-card/
+          mkdir -p _site/social-links-profile
+          cp -R social-links-profile-main/. _site/social-links-profile/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
